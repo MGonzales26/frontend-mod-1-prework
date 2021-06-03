@@ -26,6 +26,12 @@ printName();
 
 // YOU DO: Write a function named sayHello that logs to the console "Oh, Hello!"
 // Then, call the function 2 times.
+function sayHello() {
+  console.log("Oh, Hello!");
+};
+
+sayHello();
+sayHello();
 
 //-------------------
 // PART 2: Arguments and Parameters
@@ -34,8 +40,14 @@ printName();
 // YOU DO: Write a function named greetMe that takes an argument, a String, of a name.
 // The function should print out the value of the String that was passed in.
 // Then, call the function 3 times, each time, passing it a different name.
+function greetMe(name) {
+  console.log(`Hello ${name}!`);
+}
 
-
+greetMe('John')
+greetMe('Paul')
+greetMe('George')
+greetMe('Ringo')
 
 // YOU DO: Write a function that takes in 2 numbers as arguments, Numbers, and logs their sum
 // Then, call that function 3 times, each time, passing in 2 different Numbers.

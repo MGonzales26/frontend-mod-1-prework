@@ -5,7 +5,7 @@ Below is a dynamic story that is created based on the value of three variables: 
 Spend some time changing the variables and running the file to see how the story changes.
 */
 
-var doorChoice = 1;
+var doorChoice = 2;
 var bearClothing = "";
 var bearChoice = 1;
 
