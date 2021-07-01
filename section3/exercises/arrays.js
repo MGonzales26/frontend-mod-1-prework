@@ -114,7 +114,11 @@ var chargerType = "car";
 
 // Write your conditional here
 
-
+if (percentBatteryLeft >= 15) {
+  console.log("You are good to go");
+} else{
+  console.log("No power, no ride.")
+}
 // YOU DO - ANNOTATE: Above each line of your code for this if statement, create a comment.
 // That comment should describe, in your own words, and as technically precise as possible,
 // what the line of code below, does.
