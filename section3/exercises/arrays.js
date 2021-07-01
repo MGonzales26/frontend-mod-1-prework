@@ -24,12 +24,13 @@ console.log(animals[0]);
 
 // YOU DO: Write code below that will log the number of elements in array of
 // animals from above.
-
+console.log(animals.length);
 
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
 
-
+animals[2] = "Gorilla";
+console.log(animals)
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
 
 
@@ -41,23 +42,29 @@ console.log(animals[0]);
 //-------------------
 
 // YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
-
+var foods = ["dough", "cheese", "pepperoni", "sauce"]
 
 // YOU DO: Write code below that will log the number of elements in the array of
 // foods from above.
-
+console.log(foods.length)
 
 // YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 // log the changed array to verify "broccoli" has been added
-
+foods.push("broccoli")
+console.log(foods)
 
 // YOU DO: Write code below that removes the last item of food from the foods array and
 // log the changed array to verify that item has been removed
+foods.pop()
 
+console.log(foods)
 
 // YOU DO: Write code to add 3 new foods to the array. 
   // There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
+foods.push("pineapple", "mushrooms", "olives")
+// foods.push(["pineapple", "mushrooms", "olives"])
+console.log(foods)
 
 // YOU DO: Remove the food that is in index position 0.
 
